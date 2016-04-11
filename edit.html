@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+span.required{
+	color:#F00;
+	}
+span#user-acc{
+	color:#F00;
+	font-weight:bold;
+	}	
+</style>
+</head>
+
+<body>
+
+<form method="post">
+<p align="center">Xin chào <span id="user-acc">Admin</span> đã đăng nhập hệ thống - <a href="#">Logout</a></p>
+<table align="center" border="1" cellspacing="1" cellpadding="1">
+  <tr>
+    <td align="center" colspan="2">Thêm Mới Thành Viên <span class="required">(Tài khoản đã tồn tại)</span></td>
+  </tr>
+  <tr>
+    <td>Fullname</td>
+    <td><input type="text" name="full" value="Nguyễn Văn A" /> <span class="required">(*)</span></td>
+  </tr>
+  <tr>
+    <td>Username</td>
+    <td><input type="text" name="user" value="nguyenvana" /> <span class="required">(*)</span></td>
+  </tr>
+  <tr>
+    <td>Password</td>
+    <td><input type="text" name="pass" value="123456" /> <span class="required">(*)</span></td>
+  </tr>
+  <tr>
+    <td>Email</td>
+    <td><input type="text" name="mail" value="nguyenvana@gmail.com" /> <span class="required">(*)</span></td>
+  </tr>
+  <tr>
+    <td colspan="2"><input type="submit" name="submit" value="Sửa mới" /> <input type="reset" name="reset" value="Làm mới" /></td>
+  </tr>
+</table>
+</form>
+
+</body>
+</html>

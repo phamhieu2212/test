@@ -13,7 +13,7 @@ span#add-user{
 span#user-acc{
 	color:#F00;
 	font-weight:bold;
-	}	
+	}
 </style>
 </head>
 
@@ -22,20 +22,20 @@ span#user-acc{
 <p align="center">Xin chào <span id="user-acc"><?php if(isset($_SESSION['user'])){echo $_SESSION['user'];}?></span> đã đăng nhập hệ thống - <a href="logout.php">Logout</a></p>
 <?php
 if(isset($_GET['page_layout'])){
-	
+
 	switch($_GET['page_layout']){
 		case 'add': include_once('add.php');
 		break;
-		
+
 		case 'edit': include_once('edit.php');
 		break;
 	}
 }
 else{
-	include_once('list.php');	
+	include_once('list.php');
 }
 ?>
 
-
+HIếuuuu 
 </body>
 </html>
